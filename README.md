@@ -29,7 +29,7 @@ Lorsque vous commencez un projet Godot, la première étape est de faire un mond
 Vous arrivez ici après la manipulation précédente:
 
 <p align="center">
-    <img src="./ressources/world.png">
+    <img src="./ressources/node2d.png">
     </a>
 </p>
 
