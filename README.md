@@ -1,6 +1,6 @@
 # WorkShop-Godot
 
-# Workshop shooter en 2D sur Godot
+# Workshop Jumperen 2D sur Godot
 ## Introduction
 > Godot est un moteur de jeu multiplateforme et gratuit. Il possède la faculté de pouvoir créer des jeux en 2D ou en 3D avec son propre langage, le GDScript qui ressemble au python.
 
