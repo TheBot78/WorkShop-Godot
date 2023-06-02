@@ -2,7 +2,7 @@
 
 # Workshop shooter en 2D sur Godot
 ## Introduction
-> Godot est un moteur de jeu multiplateforme, c'est-à-dire un logiciel permettant de créer des jeux vidéo qui est compatible avec différents systèmes d'exploitation. Il possède la faculté de pouvoir créer des jeux en 2D ou en 3D avec son propre langage, le GDScript qui ressemble au python.
+> Godot est un moteur de jeu multiplateforme et gratuit. Il possède la faculté de pouvoir créer des jeux en 2D ou en 3D avec son propre langage, le GDScript qui ressemble au python.
 
 ## [Installation](https://godotengine.org/)
 
@@ -28,7 +28,7 @@ Lorsque vous commencez un projet Godot, la première étape est de faire un mond
 Vous arrivez ici après la manipulation précédente:
 
 <p align="center">
-    <img src="./.ressources/World.png">
+    <img src="./.ressources/world.png">
     </a>
 </p>
 
