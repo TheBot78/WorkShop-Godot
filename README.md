@@ -14,7 +14,7 @@ Vous n'avez qu'a installer la version LTS ou last version de godot et de lancer 
 > Vous allez arriver ici:
 
 <p align="center">
-    <img src="./.ressources/home.png">
+    <img src="./ressources/home.png">
     </a>
 </p>
 
@@ -29,7 +29,7 @@ Lorsque vous commencez un projet Godot, la première étape est de faire un mond
 Vous arrivez ici après la manipulation précédente:
 
 <p align="center">
-    <img src="./.ressources/world.png">
+    <img src="./ressources/world.png">
     </a>
 </p>
 
@@ -48,7 +48,7 @@ Nous voulons que notre joueur ne soit pas soumis à la gravité car nous voulons
 
 Au final, nous aurons quelque chose de ce genre:
 <p align="center">
-    <img src="./.ressources/BasicPlayer.png">
+    <img src="./ressources/BasicPlayer.png">
     </a>
 </p>
 <br>
@@ -58,7 +58,7 @@ Au final, nous aurons quelque chose de ce genre:
 En selectionnant __AnimatedSprite__, on peut créer les frames qui servireront à animer le joueur. Il suffit d'appuyer sur _Frames_ et de faire un __New SpriteFrame__. Réappuyez sur _SpriteFrame_ et vous allez arriver sur cette interface:
 
 <p align="center">
-    <img src="./.ressources/SpriteFrame.png">
+    <img src="./ressources/SpriteFrame.png">
     </a>
 </p>
 
@@ -90,7 +90,7 @@ Ici, vous allez bind les touches du clavier pour faire bouger le player.
 Ca devrait ressembler à ceci:
 
 <p align="center">
-    <img src="./.ressources/bindKeyboard.png">
+    <img src="./ressources/bindKeyboard.png">
     </a>
 </p>
 
@@ -103,7 +103,7 @@ Pour placer des éléments vous allez avoir besoin d'une __TileMap__ à l'intér
 > TileMap -> TileSet -> [+]
 
 <p align="center">
-    <img src="./.ressources/TileMap.png">
+    <img src="./ressources/TileMap.png">
     </a>
 </p>
 ## Colisions Map
