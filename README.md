@@ -7,7 +7,7 @@
 ## [Installation](https://godotengine.org/)
 
 Vous n'avez qu'a installer la version LTS ou last version de godot et de lancer le binaire qui se trouve dedans.
-> ATTENTION si vous prenez la dernière version c'est a vos risques et périles.
+> ATTENTION si vous prenez la dernière version c'est à vos risques et périles.
 # Création d'un nouveau projet
 
 > Vous allez arriver ici:
@@ -37,6 +37,8 @@ Commencez par créer une __Scene 2D__.
 Et... c'est tout. Vous pouvez maintenant sauvegarder votre monde. N'hésitez pas à renommer votre scene pour plus de clarté.
 Vous pouvez maintenant lancer votre monde avec le bouton ▶.
 
+>N'oubliez pas que google et la documentation Godot sont votre ami
+
 ## Création du player
 
 Maintenant que nous avons notre monde, nous pouvons maintenant créer notre player. Ce que nous allons faire, c'est que l'on va créer une autre scène qui sera notre joueur.
@@ -63,4 +65,55 @@ Vous pouvez dès à présent créer vos animations avec vos sprite sheets. Pour 
 <br>
 C'est maintenant à vous de créer les animations de votre players.
 > [Si vous n'avez de spritesheeet](https://opengameart.org/content/a-platformer-in-the-forest)
+
+# Collision du player
+
+Vous pouvez voir qu'il y a encore une erreur sur le __KinematicBody2D__ et qu'il demande une __CollisionShape2D__. 
+> Créez donc en un et placez bien la collision sur votre player.
+<br/>
+
+# Mouvement du player
+
+Maintenant que votre player est fait, il suffit maintenant de créer un script qui permet de le faire bouger avec les touches du clavier.
+
+## Configuration des touches
+
+Configurez d'abord les touches du clavier dans:
+ 
+>  Project -> Project Settings -> Input Map
+
+
+
+Ici, vous allez bind les touches du clavier pour faire bouger le player.
+
+Ca devrait ressembler à ceci:
+
+<p align="center">
+    <img src="./.ressources/bindKeyboard.png">
+    </a>
+</p>
+
+## Placement du décors
+
+Maintenant que le joueur est présent vous allez avoir envie de placer vos éléments pour donné un ensemble qui crée une carte
+
+Pour placer des éléments vous allez avoir besoin d'une __TileMap__ à l'intérieur de cette élément vous allez trouver avoir les TileSet utilisez ceci pour couper votre spritesheet
+
+> TileMap -> TileSet -> [+]
+
+<p align="center">
+    <img src="./.ressources/TileMap.png">
+    </a>
+</p>
+## Colisions Map
+
+Vous pouvez maintenant rajouter des collisions avec la catégorie appropriéau différents TileSet et commencez à peindre votre monde
+
+##Joueur Saut
+
+Vous allez pouvoir maintenant rajouter le saut à votre player
+
+
+## Amusez Vous
+Maintenant vous maitrisez les bases pour faire un plateformer rajouter des bonus ou des ennemis à votre jeu
 
